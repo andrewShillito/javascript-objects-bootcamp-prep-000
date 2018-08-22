@@ -1,7 +1,7 @@
 var playlist = {"Ed Sheeran": "Prefect"};
 
 function updatePlaylist(obj, name, song){
-  obj.name=song;
+  obj[name]=song;
   return obj;
 }
 
